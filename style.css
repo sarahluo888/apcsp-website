@@ -1,0 +1,49 @@
+
+body {
+  margin:50px;
+  text-align:center;
+  padding:0;
+font-size:20px;
+font-family: georgia;
+}
+
+header {
+background-image: url(flower-wallpaper-tumblr-c8y6k-nature-desktop-backgrounds.jpg); /* background-color: #666;*/
+background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: center;  
+padding: 20px;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+
+nav {
+ float: left;
+  width: 20%;
+  height: 400px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+article {
+  float: left;
+  padding: 10px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 450px; /* only for demonstration, should be removed */
+}
+
+img#corgi {
+width:430px;
+height:250px;
+
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
